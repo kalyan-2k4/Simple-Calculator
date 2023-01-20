@@ -1,0 +1,41 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIMPLE CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section>
+        <header>
+            <h1>Simple Calculator</h1>
+        </header>
+        <h2 id="error">Invalid Entry! Please enter numeric values.</h2>
+        <div class="parent">
+            <div class="child1 child">
+                <h1>Enter Number-1</h1>
+                <input type="text" id="number1">
+                <h1>Enter Number-2</h1>
+                <input type="text" id="number2">
+                <h1>Result</h1>
+                <input type="text" id="result" disabled>
+            </div>
+            <div class="child2 child">
+                <button class="operators" data-operator="+">+</button>
+                <button class="operators" data-operator="-">-</button>
+                <button class="operators" data-operator="*">*</button>
+                <button class="operators" data-operator="/">/</button>
+                <button class="operators" data-operator="%">%</button>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="script.js"></script>
+
+</html>
